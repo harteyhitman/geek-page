@@ -14,7 +14,7 @@ function HamburgerMenu() {
   const handleCloseModal = (e) => {
     setIsModalOpen(false);
     e.preventDefault();
-    {}
+//    {setIsModalOpen === true : }
   };
 
   return (
@@ -34,7 +34,7 @@ function HamburgerMenu() {
                 {menu.map((ham) =>(
                     <ul key={ham.id}>
                         <li>
-                            <a href={`#${ham.home}`}>{ham.home}</a>
+                            <a href={`#${ham.home}`} onClick={handleCloseModal}>{ham.home}</a>
                         </li>
                     </ul>
                 ))}
