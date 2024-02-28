@@ -4,6 +4,9 @@
     box-sizing: border-box;
     // border: 2px solid red;
 }
+html{
+    scroll-behavior: smooth; 
+}
 .hamburger_menu_mobile{
     display: none;
 }
@@ -550,6 +553,14 @@ img {
     font-size: 12px;
 }
 
+.engagements-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 70px;
+    padding-bottom: 100px;
+}
 
 @keyframes companys {
     from{transform: translateX(0);}
@@ -557,42 +568,44 @@ img {
 }
 
 
-.engagements-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  
-}
+
 
 .engagement1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
-    animation: 30s companys infinite linear ;
-    .firts_role {
-        // display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    gap: 40px;
+  .slider{
+    display: flex;
+    gap: 70px;
+   animation: 20s companys infinite linear ;
+  }
         img {
             width: 60px;
             height: 60px;
+
         }
-    }
+    
 }
 
 .engagement2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
-    margin-top: 40px;
-    margin-bottom: 100px;
-    animation: 50s companys infinite linear ;
-
-    .second_role {
+    overflow: hidden;
+    white-space: nowrap;
+    gap: 70px;
+  .slider{
+    display: flex;
+    gap: 70px;
+   animation: 30s companys infinite linear ;
+  }
         img {
             width: 60px;
             height: 60px;
         }
-    }
+    
 }
+

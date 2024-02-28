@@ -3,6 +3,7 @@ import './global.scss'
 import './mobile.scss'
 
 
+
 const App = () => {
   return (
     <div>
