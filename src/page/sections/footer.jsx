@@ -24,7 +24,6 @@ const Footer = () => {
                         <div key={connects.id} className="connects">
                             <ul>
                                 <li>
-
                                     <a href={`#${connects.id}`}>
                                         {connects.link}
                                     </a>

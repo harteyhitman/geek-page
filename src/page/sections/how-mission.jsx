@@ -11,14 +11,14 @@ const HowMission = () => {
                 <div className="our_mission_text">
                     <div className='text_btn_mission'>
                         <MissionH1 />
-                        <p>Our commitment is to make education accessible and <br /> 
-                        affordable to all. Geeks of Gurukul has been founded with a <br />
-                         mission to solve the problem of learning outcomes. We <br /> 
-                         encourage a culture of creativity, collaboration and continuous <br /> 
-                         learning, and empower our talented team to develop solutions  <br /> 
-                         for future-oriented growth. We constantly push the boundaries <br /> 
-                         of the possible. Thus, exploring emerging technologies and <br /> 
-                         looking forward to future trends.</p>
+                        <p>Our commitment is to make education accessible and <br />
+                            affordable to all. Geeks of Gurukul has been founded with a <br />
+                            mission to solve the problem of learning outcomes. We <br />
+                            encourage a culture of creativity, collaboration and continuous <br />
+                            learning, and empower our talented team to develop solutions  <br />
+                            for future-oriented growth. We constantly push the boundaries <br />
+                            of the possible. Thus, exploring emerging technologies and <br />
+                            looking forward to future trends.</p>
                         <Button className='join_us' label='Join Us' />
                     </div>
                     <div className="mission-img">
@@ -28,9 +28,9 @@ const HowMission = () => {
             </div>
             <div className="down">
                 <div className="engaged_text">
-                <span>Our</span>
-                <span>Engaged</span>
-                <span>Colleges</span>
+                    <span>Our</span>
+                    <span>Engaged</span>
+                    <span>Colleges</span>
                 </div>
                 <OurEngagedColleges />
             </div>
