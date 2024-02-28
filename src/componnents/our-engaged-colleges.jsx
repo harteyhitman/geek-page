@@ -10,7 +10,7 @@ const OurEngagedColleges = () => {
     return (
         <div className='engagements-container'>
             <div className='engagement1'>
-              <Engagement1 /> <br />
+              <Engagement1 /> 
             </div>
             <div className="engagement2">
              <Engagement2 />
