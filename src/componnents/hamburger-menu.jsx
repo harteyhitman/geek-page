@@ -27,7 +27,7 @@ function HamburgerMenu() {
         </div>
       </header>
       {isModalOpen && (
-        <div className={`modal fixed top-0 left-${isModalOpen ? '0' : '[-250px]'} w-[240px] duration-300`}>
+        <div className={`modal fixed top-0 left-${isModalOpen ? '0' : '[-100%]'}  duration-300`}>
           <div className="modal-content">
             <a href="#"  onClick={handleCloseModal}><MdClose className="close"/></a>
             <div className="hambur">
